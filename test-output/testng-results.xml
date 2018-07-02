@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="48" total="61" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test-method Suite" duration-ms="1203559" started-at="2018-06-29T11:33:52Z" finished-at="2018-06-29T11:53:55Z">
+    <groups>
+    </groups>
+    <test name="FABE" duration-ms="1203559" started-at="2018-06-29T11:33:52Z" finished-at="2018-06-29T11:53:55Z">
+      <class name="com.FABE.scripts.TC12_VerifySepaBankDebitPayment">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC12_VerifySepaBankDebitPayment@74a10858]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:20:50Z" finished-at="2018-06-29T17:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC12_VerifySepaBankDebitPayment@74a10858]" name="excelLoad" is-config="true" duration-ms="10" started-at="2018-06-29T17:20:50Z" finished-at="2018-06-29T17:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC12_VerifySepaBankDebitPayment@74a10858]" name="reportHeader" is-config="true" duration-ms="3274" started-at="2018-06-29T17:20:50Z" finished-at="2018-06-29T17:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC12_VerifySepaBankDebitPayment.testTC12_VerifySepaBankDebitPayment() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="FAIL" signature="testTC12_VerifySepaBankDebitPayment()[pri:0, instance:com.FABE.scripts.TC12_VerifySepaBankDebitPayment@74a10858]" name="testTC12_VerifySepaBankDebitPayment" duration-ms="113040" started-at="2018-06-29T17:20:53Z" finished-at="2018-06-29T17:22:46Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: E:\Automation\Fabory_WebShop\Drivers\chromedriver_2.38.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: E:\Automation\Fabory_WebShop\Drivers\chromedriver_2.38.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:33)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:139)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.FABE.accelerators.TestEngine.openBrowser(TestEngine.java:999)
+	at com.FABE.accelerators.ActionEngine.catchBlock(ActionEngine.java:2262)
+	at com.FABE.scripts.TC12_VerifySepaBankDebitPayment.testTC12_VerifySepaBankDebitPayment(TC12_VerifySepaBankDebitPayment.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC12_VerifySepaBankDebitPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC12_VerifySepaBankDebitPayment@74a10858]" name="tearDown" is-config="true" duration-ms="20" started-at="2018-06-29T17:22:46Z" finished-at="2018-06-29T17:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC12_VerifySepaBankDebitPayment@74a10858]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:22:46Z" finished-at="2018-06-29T17:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC12_VerifySepaBankDebitPayment -->
+      <class name="com.FABE.scripts.TC01_RegisterAsNewCompany">
+        <test-method status="PASS" signature="suiteFirst(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="suiteFirst" is-config="true" duration-ms="20" started-at="2018-06-29T17:03:52Z" finished-at="2018-06-29T17:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteFirst -->
+        <test-method status="PASS" signature="first(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="first" is-config="true" duration-ms="152" started-at="2018-06-29T17:03:52Z" finished-at="2018-06-29T17:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:03:52Z" finished-at="2018-06-29T17:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="excelLoad" is-config="true" duration-ms="410" started-at="2018-06-29T17:03:52Z" finished-at="2018-06-29T17:03:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="reportHeader" is-config="true" duration-ms="4469" started-at="2018-06-29T17:03:52Z" finished-at="2018-06-29T17:03:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC01_RegisterAsNewCompany.testTC01_RegisterAsNewCompany() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC01_RegisterAsNewCompany()[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="testTC01_RegisterAsNewCompany" duration-ms="110034" started-at="2018-06-29T17:03:57Z" finished-at="2018-06-29T17:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC01_RegisterAsNewCompany -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="tearDown" is-config="true" duration-ms="818" started-at="2018-06-29T17:05:47Z" finished-at="2018-06-29T17:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:05:47Z" finished-at="2018-06-29T17:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="first1(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="first1" is-config="true" duration-ms="0" started-at="2018-06-29T17:23:55Z" finished-at="2018-06-29T17:23:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first1 -->
+        <test-method status="FAIL" signature="tearDownFirefox(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC01_RegisterAsNewCompany@192d3247]" name="tearDownFirefox" is-config="true" duration-ms="1953" started-at="2018-06-29T17:23:55Z" finished-at="2018-06-29T17:23:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FABE.util.SendMail.attachReportsToEmail(SendMail.java:37)
+	at com.FABE.accelerators.TestEngine.tearDownFirefox(TestEngine.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:350)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFirefox -->
+      </class> <!-- com.FABE.scripts.TC01_RegisterAsNewCompany -->
+      <class name="com.FABE.scripts.TC10_VerifyCreditCardPayment">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC10_VerifyCreditCardPayment@cb0ed20]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:16:45Z" finished-at="2018-06-29T17:16:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC10_VerifyCreditCardPayment@cb0ed20]" name="excelLoad" is-config="true" duration-ms="10" started-at="2018-06-29T17:16:45Z" finished-at="2018-06-29T17:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC10_VerifyCreditCardPayment@cb0ed20]" name="reportHeader" is-config="true" duration-ms="3801" started-at="2018-06-29T17:16:45Z" finished-at="2018-06-29T17:16:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC10_VerifyCreditCardPayment.testTC10_VerifyCreditCardPayment() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="FAIL" signature="testTC10_VerifyCreditCardPayment()[pri:0, instance:com.FABE.scripts.TC10_VerifyCreditCardPayment@cb0ed20]" name="testTC10_VerifyCreditCardPayment" duration-ms="105977" started-at="2018-06-29T17:16:49Z" finished-at="2018-06-29T17:18:35Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: E:\Automation\Fabory_WebShop\Drivers\chromedriver_2.38.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: E:\Automation\Fabory_WebShop\Drivers\chromedriver_2.38.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:33)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:139)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.FABE.accelerators.TestEngine.openBrowser(TestEngine.java:999)
+	at com.FABE.accelerators.ActionEngine.catchBlock(ActionEngine.java:2262)
+	at com.FABE.scripts.TC10_VerifyCreditCardPayment.testTC10_VerifyCreditCardPayment(TC10_VerifyCreditCardPayment.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC10_VerifyCreditCardPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC10_VerifyCreditCardPayment@cb0ed20]" name="tearDown" is-config="true" duration-ms="20" started-at="2018-06-29T17:18:35Z" finished-at="2018-06-29T17:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC10_VerifyCreditCardPayment@cb0ed20]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:18:35Z" finished-at="2018-06-29T17:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC10_VerifyCreditCardPayment -->
+      <class name="com.FABE.scripts.TC13_CheckoutAddNewAddress">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC13_CheckoutAddNewAddress@23fe1d71]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:22:46Z" finished-at="2018-06-29T17:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC13_CheckoutAddNewAddress@23fe1d71]" name="excelLoad" is-config="true" duration-ms="21" started-at="2018-06-29T17:22:46Z" finished-at="2018-06-29T17:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC13_CheckoutAddNewAddress@23fe1d71]" name="reportHeader" is-config="true" duration-ms="3319" started-at="2018-06-29T17:22:46Z" finished-at="2018-06-29T17:22:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC13_CheckoutAddNewAddress.testTC13_CheckoutAddNewAddress() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC13_CheckoutAddNewAddress()[pri:0, instance:com.FABE.scripts.TC13_CheckoutAddNewAddress@23fe1d71]" name="testTC13_CheckoutAddNewAddress" duration-ms="64962" started-at="2018-06-29T17:22:49Z" finished-at="2018-06-29T17:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC13_CheckoutAddNewAddress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC13_CheckoutAddNewAddress@23fe1d71]" name="tearDown" is-config="true" duration-ms="631" started-at="2018-06-29T17:23:54Z" finished-at="2018-06-29T17:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC13_CheckoutAddNewAddress@23fe1d71]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:23:55Z" finished-at="2018-06-29T17:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC13_CheckoutAddNewAddress -->
+      <class name="com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder@5891e32e]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:14:57Z" finished-at="2018-06-29T17:14:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder@5891e32e]" name="excelLoad" is-config="true" duration-ms="10" started-at="2018-06-29T17:14:57Z" finished-at="2018-06-29T17:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder@5891e32e]" name="reportHeader" is-config="true" duration-ms="3275" started-at="2018-06-29T17:14:57Z" finished-at="2018-06-29T17:15:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder.testTC09_VerifyCheckoutAndSubmitOrder() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC09_VerifyCheckoutAndSubmitOrder()[pri:0, instance:com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder@5891e32e]" name="testTC09_VerifyCheckoutAndSubmitOrder" duration-ms="103663" started-at="2018-06-29T17:15:01Z" finished-at="2018-06-29T17:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC09_VerifyCheckoutAndSubmitOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder@5891e32e]" name="tearDown" is-config="true" duration-ms="623" started-at="2018-06-29T17:16:44Z" finished-at="2018-06-29T17:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder@5891e32e]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:16:45Z" finished-at="2018-06-29T17:16:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder -->
+      <class name="com.FABE.scripts.TC06_AddFastenerProductToCart">
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC06_AddFastenerProductToCart@64f6106c]" name="excelLoad" is-config="true" duration-ms="30" started-at="2018-06-29T17:10:50Z" finished-at="2018-06-29T17:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC06_AddFastenerProductToCart@64f6106c]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:10:50Z" finished-at="2018-06-29T17:10:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC06_AddFastenerProductToCart@64f6106c]" name="reportHeader" is-config="true" duration-ms="3416" started-at="2018-06-29T17:10:50Z" finished-at="2018-06-29T17:10:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC06_AddFastenerProductToCart.testTC06_AddFastenerProductToCart() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC06_AddFastenerProductToCart()[pri:0, instance:com.FABE.scripts.TC06_AddFastenerProductToCart@64f6106c]" name="testTC06_AddFastenerProductToCart" duration-ms="75828" started-at="2018-06-29T17:10:54Z" finished-at="2018-06-29T17:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC06_AddFastenerProductToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC06_AddFastenerProductToCart@64f6106c]" name="tearDown" is-config="true" duration-ms="670" started-at="2018-06-29T17:12:09Z" finished-at="2018-06-29T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC06_AddFastenerProductToCart@64f6106c]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:12:10Z" finished-at="2018-06-29T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC06_AddFastenerProductToCart -->
+      <class name="com.FABE.scripts.TC11_VerifySepaBankTransferPayment">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC11_VerifySepaBankTransferPayment@8e24743]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:18:35Z" finished-at="2018-06-29T17:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC11_VerifySepaBankTransferPayment@8e24743]" name="excelLoad" is-config="true" duration-ms="21" started-at="2018-06-29T17:18:35Z" finished-at="2018-06-29T17:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC11_VerifySepaBankTransferPayment@8e24743]" name="reportHeader" is-config="true" duration-ms="3289" started-at="2018-06-29T17:18:35Z" finished-at="2018-06-29T17:18:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC11_VerifySepaBankTransferPayment.testTC11_VerifySepaBankTransferPayment() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC11_VerifySepaBankTransferPayment()[pri:0, instance:com.FABE.scripts.TC11_VerifySepaBankTransferPayment@8e24743]" name="testTC11_VerifySepaBankTransferPayment" duration-ms="131031" started-at="2018-06-29T17:18:38Z" finished-at="2018-06-29T17:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC11_VerifySepaBankTransferPayment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC11_VerifySepaBankTransferPayment@8e24743]" name="tearDown" is-config="true" duration-ms="614" started-at="2018-06-29T17:20:49Z" finished-at="2018-06-29T17:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC11_VerifySepaBankTransferPayment@8e24743]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:20:50Z" finished-at="2018-06-29T17:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC11_VerifySepaBankTransferPayment -->
+      <class name="com.FABE.scripts.TC02_LoginAsAdminUser">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC02_LoginAsAdminUser@3ecd23d9]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:05:47Z" finished-at="2018-06-29T17:05:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC02_LoginAsAdminUser@3ecd23d9]" name="excelLoad" is-config="true" duration-ms="80" started-at="2018-06-29T17:05:47Z" finished-at="2018-06-29T17:05:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC02_LoginAsAdminUser@3ecd23d9]" name="reportHeader" is-config="true" duration-ms="3368" started-at="2018-06-29T17:05:48Z" finished-at="2018-06-29T17:05:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC02_LoginAsAdminUser.testTC02_LoginAsAdminUser() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC02_LoginAsAdminUser()[pri:0, instance:com.FABE.scripts.TC02_LoginAsAdminUser@3ecd23d9]" name="testTC02_LoginAsAdminUser" duration-ms="53086" started-at="2018-06-29T17:05:51Z" finished-at="2018-06-29T17:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC02_LoginAsAdminUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC02_LoginAsAdminUser@3ecd23d9]" name="tearDown" is-config="true" duration-ms="622" started-at="2018-06-29T17:06:44Z" finished-at="2018-06-29T17:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC02_LoginAsAdminUser@3ecd23d9]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:06:45Z" finished-at="2018-06-29T17:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC02_LoginAsAdminUser -->
+      <class name="com.FABE.scripts.TC04_VerifyUserCreationByAdminUser">
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC04_VerifyUserCreationByAdminUser@43bd930a]" name="excelLoad" is-config="true" duration-ms="30" started-at="2018-06-29T17:07:41Z" finished-at="2018-06-29T17:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC04_VerifyUserCreationByAdminUser@43bd930a]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:07:41Z" finished-at="2018-06-29T17:07:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC04_VerifyUserCreationByAdminUser@43bd930a]" name="reportHeader" is-config="true" duration-ms="3359" started-at="2018-06-29T17:07:41Z" finished-at="2018-06-29T17:07:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC04_VerifyUserCreationByAdminUser.testTC04_VerifyUserCreationByAdminUser() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC04_VerifyUserCreationByAdminUser()[pri:0, instance:com.FABE.scripts.TC04_VerifyUserCreationByAdminUser@43bd930a]" name="testTC04_VerifyUserCreationByAdminUser" duration-ms="124393" started-at="2018-06-29T17:07:44Z" finished-at="2018-06-29T17:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC04_VerifyUserCreationByAdminUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC04_VerifyUserCreationByAdminUser@43bd930a]" name="tearDown" is-config="true" duration-ms="641" started-at="2018-06-29T17:09:48Z" finished-at="2018-06-29T17:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC04_VerifyUserCreationByAdminUser@43bd930a]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:09:49Z" finished-at="2018-06-29T17:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC04_VerifyUserCreationByAdminUser -->
+      <class name="com.FABE.scripts.TC08_SignUpExistingCompany">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC08_SignUpExistingCompany@7a30d1e6]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:13:22Z" finished-at="2018-06-29T17:13:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC08_SignUpExistingCompany@7a30d1e6]" name="excelLoad" is-config="true" duration-ms="40" started-at="2018-06-29T17:13:22Z" finished-at="2018-06-29T17:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC08_SignUpExistingCompany@7a30d1e6]" name="reportHeader" is-config="true" duration-ms="3313" started-at="2018-06-29T17:13:22Z" finished-at="2018-06-29T17:13:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC08_SignUpExistingCompany.testTC08_SignUpExistingCompany() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC08_SignUpExistingCompany()[pri:0, instance:com.FABE.scripts.TC08_SignUpExistingCompany@7a30d1e6]" name="testTC08_SignUpExistingCompany" duration-ms="91727" started-at="2018-06-29T17:13:25Z" finished-at="2018-06-29T17:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC08_SignUpExistingCompany -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC08_SignUpExistingCompany@7a30d1e6]" name="tearDown" is-config="true" duration-ms="631" started-at="2018-06-29T17:14:57Z" finished-at="2018-06-29T17:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC08_SignUpExistingCompany@7a30d1e6]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:14:57Z" finished-at="2018-06-29T17:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC08_SignUpExistingCompany -->
+      <class name="com.FABE.scripts.TC03_VerifyProductsMenu">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC03_VerifyProductsMenu@569cfc36]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:06:45Z" finished-at="2018-06-29T17:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC03_VerifyProductsMenu@569cfc36]" name="excelLoad" is-config="true" duration-ms="40" started-at="2018-06-29T17:06:45Z" finished-at="2018-06-29T17:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC03_VerifyProductsMenu@569cfc36]" name="reportHeader" is-config="true" duration-ms="3284" started-at="2018-06-29T17:06:45Z" finished-at="2018-06-29T17:06:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC03_VerifyProductsMenu.testTC03_VerifyProductsMenu() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC03_VerifyProductsMenu()[pri:0, instance:com.FABE.scripts.TC03_VerifyProductsMenu@569cfc36]" name="testTC03_VerifyProductsMenu" duration-ms="52162" started-at="2018-06-29T17:06:48Z" finished-at="2018-06-29T17:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC03_VerifyProductsMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC03_VerifyProductsMenu@569cfc36]" name="tearDown" is-config="true" duration-ms="624" started-at="2018-06-29T17:07:40Z" finished-at="2018-06-29T17:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC03_VerifyProductsMenu@569cfc36]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:07:41Z" finished-at="2018-06-29T17:07:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC03_VerifyProductsMenu -->
+      <class name="com.FABE.scripts.TC07_SearchForProductAndAddToCart">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC07_SearchForProductAndAddToCart@553a3d88]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:12:10Z" finished-at="2018-06-29T17:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC07_SearchForProductAndAddToCart@553a3d88]" name="excelLoad" is-config="true" duration-ms="10" started-at="2018-06-29T17:12:10Z" finished-at="2018-06-29T17:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC07_SearchForProductAndAddToCart@553a3d88]" name="reportHeader" is-config="true" duration-ms="3616" started-at="2018-06-29T17:12:10Z" finished-at="2018-06-29T17:12:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC07_SearchForProductAndAddToCart.testTC07_SearchForProductAndAddToCart() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC07_SearchForProductAndAddToCart()[pri:0, instance:com.FABE.scripts.TC07_SearchForProductAndAddToCart@553a3d88]" name="testTC07_SearchForProductAndAddToCart" duration-ms="67352" started-at="2018-06-29T17:12:14Z" finished-at="2018-06-29T17:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC07_SearchForProductAndAddToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC07_SearchForProductAndAddToCart@553a3d88]" name="tearDown" is-config="true" duration-ms="676" started-at="2018-06-29T17:13:21Z" finished-at="2018-06-29T17:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC07_SearchForProductAndAddToCart@553a3d88]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:13:22Z" finished-at="2018-06-29T17:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC07_SearchForProductAndAddToCart -->
+      <class name="com.FABE.scripts.TC05_VerifyHomePage">
+        <test-method status="PASS" signature="firstBeforeClass(org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC05_VerifyHomePage@33723e30]" name="firstBeforeClass" is-config="true" duration-ms="0" started-at="2018-06-29T17:09:49Z" finished-at="2018-06-29T17:09:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstBeforeClass -->
+        <test-method status="PASS" signature="excelLoad()[pri:0, instance:com.FABE.scripts.TC05_VerifyHomePage@33723e30]" name="excelLoad" is-config="true" duration-ms="10" started-at="2018-06-29T17:09:49Z" finished-at="2018-06-29T17:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelLoad -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.FABE.scripts.TC05_VerifyHomePage@33723e30]" name="reportHeader" is-config="true" duration-ms="3272" started-at="2018-06-29T17:09:49Z" finished-at="2018-06-29T17:09:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.FABE.scripts.TC05_VerifyHomePage.testTC05_VerifyHomePage() throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d8fcf34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="PASS" signature="testTC05_VerifyHomePage()[pri:0, instance:com.FABE.scripts.TC05_VerifyHomePage@33723e30]" name="testTC05_VerifyHomePage" duration-ms="57092" started-at="2018-06-29T17:09:52Z" finished-at="2018-06-29T17:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTC05_VerifyHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.FABE.scripts.TC05_VerifyHomePage@33723e30]" name="tearDown" is-config="true" duration-ms="650" started-at="2018-06-29T17:10:50Z" finished-at="2018-06-29T17:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.FABE.scripts.TC05_VerifyHomePage@33723e30]" name="close" is-config="true" duration-ms="0" started-at="2018-06-29T17:10:50Z" finished-at="2018-06-29T17:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.FABE.scripts.TC05_VerifyHomePage -->
+    </test> <!-- FABE -->
+  </suite> <!-- Test-method Suite -->
+</testng-results>

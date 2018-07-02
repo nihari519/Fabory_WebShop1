@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Test-method Suite]">
+  <test name="FABE(failed)">
+    <classes>
+      <class name="com.FABE.scripts.TC10_VerifyCreditCardPayment">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="firstBeforeClass"/>
+          <include name="first1"/>
+          <include name="tearDownFirefox"/>
+          <include name="tearDown"/>
+          <include name="reportHeader"/>
+          <include name="excelLoad"/>
+          <include name="testTC10_VerifyCreditCardPayment"/>
+          <include name="close"/>
+          <include name="first"/>
+        </methods>
+      </class> <!-- com.FABE.scripts.TC10_VerifyCreditCardPayment -->
+      <class name="com.FABE.scripts.TC12_VerifySepaBankDebitPayment">
+        <methods>
+          <include name="testTC12_VerifySepaBankDebitPayment"/>
+          <include name="suiteFirst"/>
+          <include name="firstBeforeClass"/>
+          <include name="first1"/>
+          <include name="tearDownFirefox"/>
+          <include name="tearDown"/>
+          <include name="reportHeader"/>
+          <include name="excelLoad"/>
+          <include name="close"/>
+          <include name="first"/>
+        </methods>
+      </class> <!-- com.FABE.scripts.TC12_VerifySepaBankDebitPayment -->
+    </classes>
+  </test> <!-- FABE(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->

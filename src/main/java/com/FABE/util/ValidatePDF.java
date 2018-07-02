@@ -1,0 +1,49 @@
+package com.FABE.util;
+
+import java.io.File;
+
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.util.PDFTextStripper;
+
+
+
+public class ValidatePDF {
+	
+	PDDocument pdf=null;
+	
+	
+	public static void main(String args[]) throws Throwable{
+		ValidatePDF object=new ValidatePDF();
+		object.validatePDF("R5542565AO_LIS0001_920712_PDF");
+		
+	}
+	
+	public String validatePDF(String FileName) throws Throwable{
+		try{
+			String content=null;
+			File file=new File("C:\\Users\\IN01612\\Downloads\\"+FileName+".pdf");
+			if(file.exists()){
+				pdf=PDDocument.load(new File("C:\\Users\\IN01612\\Downloads\\"+FileName+".pdf"));
+				PDFTextStripper textStripper = new PDFTextStripper();
+				content = textStripper.getText(pdf);
+				System.out.println(content);
+				
+			}else{
+				return "File Does not Exist";
+			}
+			
+			return content;
+			
+			
+		}catch(Exception e){
+			throw e;
+			
+		}finally{
+			pdf.close();
+		}
+	}
+	
+	
+	
+
+}

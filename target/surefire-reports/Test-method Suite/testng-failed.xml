@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Test-method Suite]">
+  <parameter name="parallel" value="NO"/>
+  <test name="RM(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.RM.scripts.TC6_AddAndDeletePaymentMethod">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="excelLoad"/>
+          <include name="testTC6_AddAndDeletePaymentMethod"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.TC6_AddAndDeletePaymentMethod -->
+      <class name="com.RM.scripts.TC6_DifferentPaymentAddress">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="excelLoad"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="testTC6_DifferentPaymentAddress"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.TC6_DifferentPaymentAddress -->
+      <class name="com.RM.scripts.QuickPay_TC3_3">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="testQuickPay_TC3_3"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="excelLoad"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.QuickPay_TC3_3 -->
+      <class name="com.RM.scripts.Moolaperks">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="testMoolaperks"/>
+          <include name="tearDown"/>
+          <include name="excelLoad"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.Moolaperks -->
+      <class name="com.RM.scripts.QuickPay_TC3_1">
+        <methods>
+          <include name="excelLoad"/>
+          <include name="suiteFirst"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="testQuickPay_TC3_1"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.QuickPay_TC3_1 -->
+      <class name="com.RM.scripts.QuickPay_TC5">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="excelLoad"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="testQuickPay_TC5"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.QuickPay_TC5 -->
+      <class name="com.RM.scripts.TC2_Recurring">
+        <methods>
+          <include name="testTC2_Recurring"/>
+          <include name="suiteFirst"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="excelLoad"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.TC2_Recurring -->
+      <class name="com.RM.scripts.TC6_OneTimeChangePassword">
+        <methods>
+          <include name="excelLoad"/>
+          <include name="suiteFirst"/>
+          <include name="testTC6_OneTimeChangePassword"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.TC6_OneTimeChangePassword -->
+      <class name="com.RM.scripts.TC6_PrimaryPayment">
+        <methods>
+          <include name="testTC6_PrimaryPayment"/>
+          <include name="suiteFirst"/>
+          <include name="excelLoad"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.TC6_PrimaryPayment -->
+      <class name="com.RM.scripts.QuickPay_TC3_4">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="testQuickPay_TC3_4"/>
+          <include name="reportHeader"/>
+          <include name="excelLoad"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.QuickPay_TC3_4 -->
+      <class name="com.RM.scripts.QuickPay_TC4">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="excelLoad"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="testQuickPay_TC4"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.QuickPay_TC4 -->
+      <class name="com.RM.scripts.TC6_ExpiryCardError">
+        <methods>
+          <include name="suiteFirst"/>
+          <include name="reportHeader"/>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="firstBeforeClass"/>
+          <include name="testTC6_ExpiryCardError"/>
+          <include name="excelLoad"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.RM.scripts.TC6_ExpiryCardError -->
+    </classes>
+  </test> <!-- RM(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->

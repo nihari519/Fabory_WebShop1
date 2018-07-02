@@ -1,0 +1,368 @@
+<html>
+<head>
+<title>TestNG:  SWG</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SWG</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>41/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 07 18:25:35 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>1056 seconds (1056608 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.RM.scripts.TC1_SignUp_New.testTC1_SignUp_New()'><b>testTC1_SignUp_New</b><br>Test class: com.RM.scripts.TC1_SignUp_New</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.RM.scripts.TC1_SignUp_New.testTC1_SignUp_New(TC1_SignUp_New.java:23)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1811942924", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1811942924'><pre>java.lang.NullPointerException
+	at com.RM.scripts.TC1_SignUp_New.testTC1_SignUp_New(TC1_SignUp_New.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.RM.scripts.TC1_SignUp_New@8e24743</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_AddAndDeletePaymentMethod.testTC6_AddAndDeletePaymentMethod()'><b>testTC6_AddAndDeletePaymentMethod</b><br>Test class: com.RM.scripts.TC6_AddAndDeletePaymentMethod</td>
+<td><div><pre>java.lang.Error: Unresolved compilation problems: 
+	DeleteButton cannot be resolved to a variable
+	The field TestEngine.i is not visible
+
+	at com.RM.scripts.TC6_AddAndDeletePaymentMethod.testTC6_AddAndDeletePaymentMethod(TC6_AddAndDeletePaymentMethod.java:156)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1450712470", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1450712470'><pre>java.lang.Error: Unresolved compilation problems: 
+	DeleteButton cannot be resolved to a variable
+	The field TestEngine.i is not visible
+
+	at com.RM.scripts.TC6_AddAndDeletePaymentMethod.testTC6_AddAndDeletePaymentMethod(TC6_AddAndDeletePaymentMethod.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_AddAndDeletePaymentMethod@7403c468</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.RM.scripts.Moolaperks.testMoolaperks()'><b>testMoolaperks</b><br>Test class: com.RM.scripts.Moolaperks</td>
+<td></td>
+<td>67</td>
+<td>com.RM.scripts.Moolaperks@1d371b2d</td></tr>
+<tr>
+<td title='com.RM.scripts.QuickPay_TC1.testQuickPay_TC1()'><b>testQuickPay_TC1</b><br>Test class: com.RM.scripts.QuickPay_TC1</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.QuickPay_TC1@2e3fc542</td></tr>
+<tr>
+<td title='com.RM.scripts.QuickPay_TC1_New.testQuickPay_TC1_New()'><b>testQuickPay_TC1_New</b><br>Test class: com.RM.scripts.QuickPay_TC1_New</td>
+<td></td>
+<td>54</td>
+<td>com.RM.scripts.QuickPay_TC1_New@17d0685f</td></tr>
+<tr>
+<td title='com.RM.scripts.QuickPay_TC5.testQuickPay_TC1_New()'><b>testQuickPay_TC1_New</b><br>Test class: com.RM.scripts.QuickPay_TC5</td>
+<td></td>
+<td>34</td>
+<td>com.RM.scripts.QuickPay_TC5@782663d3</td></tr>
+<tr>
+<td title='com.RM.scripts.QuickPay_TC2.testQuickPay_TC2()'><b>testQuickPay_TC2</b><br>Test class: com.RM.scripts.QuickPay_TC2</td>
+<td></td>
+<td>57</td>
+<td>com.RM.scripts.QuickPay_TC2@544a2ea6</td></tr>
+<tr>
+<td title='com.RM.scripts.QuickPay_TC3_1.testQuickPay_TC3_1()'><b>testQuickPay_TC3_1</b><br>Test class: com.RM.scripts.QuickPay_TC3_1</td>
+<td></td>
+<td>80</td>
+<td>com.RM.scripts.QuickPay_TC3_1@2de8284b</td></tr>
+<tr>
+<td title='com.RM.scripts.QuickPay_TC3_3.testQuickPay_TC3_3()'><b>testQuickPay_TC3_3</b><br>Test class: com.RM.scripts.QuickPay_TC3_3</td>
+<td></td>
+<td>33</td>
+<td>com.RM.scripts.QuickPay_TC3_3@18bf3d14</td></tr>
+<tr>
+<td title='com.RM.scripts.QuickPay_TC3_4.testQuickPay_TC3_4()'><b>testQuickPay_TC3_4</b><br>Test class: com.RM.scripts.QuickPay_TC3_4</td>
+<td></td>
+<td>33</td>
+<td>com.RM.scripts.QuickPay_TC3_4@365185bd</td></tr>
+<tr>
+<td title='com.RM.scripts.QuickPay_TC4.testQuickPay_TC4()'><b>testQuickPay_TC4</b><br>Test class: com.RM.scripts.QuickPay_TC4</td>
+<td></td>
+<td>35</td>
+<td>com.RM.scripts.QuickPay_TC4@7276c8cd</td></tr>
+<tr>
+<td title='com.RM.scripts.TC1_1RegisteredEmailID.testTC1_1RegisteredEmailID()'><b>testTC1_1RegisteredEmailID</b><br>Test class: com.RM.scripts.TC1_1RegisteredEmailID</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC1_1RegisteredEmailID@12c8a2c0</td></tr>
+<tr>
+<td title='com.RM.scripts.TC1_2LoginWithDirectEnabled.testTC1_2LoginWithDirectEnabled()'><b>testTC1_2LoginWithDirectEnabled</b><br>Test class: com.RM.scripts.TC1_2LoginWithDirectEnabled</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC1_2LoginWithDirectEnabled@28ac3dc3</td></tr>
+<tr>
+<td title='com.RM.scripts.TC1_SignUp.testTC1_SignUp()'><b>testTC1_SignUp</b><br>Test class: com.RM.scripts.TC1_SignUp</td>
+<td></td>
+<td>73</td>
+<td>com.RM.scripts.TC1_SignUp@22eeefeb</td></tr>
+<tr>
+<td title='com.RM.scripts.TC2_4.testTC2_4()'><b>testTC2_4</b><br>Test class: com.RM.scripts.TC2_4</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC2_4@4fb64261</td></tr>
+<tr>
+<td title='com.RM.scripts.TC2_5.testTC2_5()'><b>testTC2_5</b><br>Test class: com.RM.scripts.TC2_5</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC2_5@7e0e6aa2</td></tr>
+<tr>
+<td title='com.RM.scripts.TC2_6.testTC2_6()'><b>testTC2_6</b><br>Test class: com.RM.scripts.TC2_6</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC2_6@4524411f</td></tr>
+<tr>
+<td title='com.RM.scripts.TC2_7.testTC2_7()'><b>testTC2_7</b><br>Test class: com.RM.scripts.TC2_7</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC2_7@150c158</td></tr>
+<tr>
+<td title='com.RM.scripts.TC2_Recurring.testTC2_Recurring()'><b>testTC2_Recurring</b><br>Test class: com.RM.scripts.TC2_Recurring</td>
+<td></td>
+<td>69</td>
+<td>com.RM.scripts.TC2_Recurring@6ec8211c</td></tr>
+<tr>
+<td title='com.RM.scripts.TC3_4.testTC3_4()'><b>testTC3_4</b><br>Test class: com.RM.scripts.TC3_4</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC3_4@396e2f39</td></tr>
+<tr>
+<td title='com.RM.scripts.TC3_FirstDate.testTC3_FirstDate()'><b>testTC3_FirstDate</b><br>Test class: com.RM.scripts.TC3_FirstDate</td>
+<td></td>
+<td>105</td>
+<td>com.RM.scripts.TC3_FirstDate@23fe1d71</td></tr>
+<tr>
+<td title='com.RM.scripts.TC4_FinalDate.testTC4_FinalDate()'><b>testTC4_FinalDate</b><br>Test class: com.RM.scripts.TC4_FinalDate</td>
+<td></td>
+<td>105</td>
+<td>com.RM.scripts.TC4_FinalDate@1fc2b765</td></tr>
+<tr>
+<td title='com.RM.scripts.TC5_OneTimePayment.testTC5_OneTimePayment()'><b>testTC5_OneTimePayment</b><br>Test class: com.RM.scripts.TC5_OneTimePayment</td>
+<td></td>
+<td>55</td>
+<td>com.RM.scripts.TC5_OneTimePayment@cb0ed20</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_ChangeRecurringDate.testTC6_ChangeRecurringDate()'><b>testTC6_ChangeRecurringDate</b><br>Test class: com.RM.scripts.TC6_ChangeRecurringDate</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_ChangeRecurringDate@42607a4f</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_ConfirmPasswordValidation.testTC6_ConfirmPasswordValidation()'><b>testTC6_ConfirmPasswordValidation</b><br>Test class: com.RM.scripts.TC6_ConfirmPasswordValidation</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_ConfirmPasswordValidation@43738a82</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_DeleteThePrimaryCard.testTC6_DeleteThePrimaryCard()'><b>testTC6_DeleteThePrimaryCard</b><br>Test class: com.RM.scripts.TC6_DeleteThePrimaryCard</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_DeleteThePrimaryCard@7a30d1e6</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_DifferentPaymentAddress.testTC6_DifferentPaymentAddress()'><b>testTC6_DifferentPaymentAddress</b><br>Test class: com.RM.scripts.TC6_DifferentPaymentAddress</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_DifferentPaymentAddress@51c8530f</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_DisableRecurringPayment.testTC6_DisableRecurringPayment()'><b>testTC6_DisableRecurringPayment</b><br>Test class: com.RM.scripts.TC6_DisableRecurringPayment</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_DisableRecurringPayment@25bbf683</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_ExpiryCardError.testTC6_ExpiryCardError()'><b>testTC6_ExpiryCardError</b><br>Test class: com.RM.scripts.TC6_ExpiryCardError</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_ExpiryCardError@5891e32e</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_OneTimeChangePassword.testTC6_OneTimeChangePassword()'><b>testTC6_OneTimeChangePassword</b><br>Test class: com.RM.scripts.TC6_OneTimeChangePassword</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_OneTimeChangePassword@32eebfca</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_OneTimePaymentFutureDate.testTC6_OneTimePaymentFutureDate()'><b>testTC6_OneTimePaymentFutureDate</b><br>Test class: com.RM.scripts.TC6_OneTimePaymentFutureDate</td>
+<td></td>
+<td>76</td>
+<td>com.RM.scripts.TC6_OneTimePaymentFutureDate@3891771e</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_OneTimeStopPayments.testTC6_OneTimeStopPayments()'><b>testTC6_OneTimeStopPayments</b><br>Test class: com.RM.scripts.TC6_OneTimeStopPayments</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_OneTimeStopPayments@289d1c02</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_PasswordLengthValidation.testTC6_PasswordLengthValidation()'><b>testTC6_PasswordLengthValidation</b><br>Test class: com.RM.scripts.TC6_PasswordLengthValidation</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_PasswordLengthValidation@75881071</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_PasswordMustMatch.testTC6_PasswordMustMatch()'><b>testTC6_PasswordMustMatch</b><br>Test class: com.RM.scripts.TC6_PasswordMustMatch</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_PasswordMustMatch@74a10858</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_PayOneTimeChargesUsingRepeatFeature.testTC6_PayOneTimeChargesUsingRepeatFeature()'><b>testTC6_PayOneTimeChargesUsingRepeatFeature</b><br>Test class: com.RM.scripts.TC6_PayOneTimeChargesUsingRepeatFeature</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_PayOneTimeChargesUsingRepeatFeature@2a70a3d8</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_PrimaryPayment.testTC6_PrimaryPayment()'><b>testTC6_PrimaryPayment</b><br>Test class: com.RM.scripts.TC6_PrimaryPayment</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_PrimaryPayment@a74868d</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_RecurringChangePassword.testTC6_RecurringChangePassword()'><b>testTC6_RecurringChangePassword</b><br>Test class: com.RM.scripts.TC6_RecurringChangePassword</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_RecurringChangePassword@c81cdd1</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_RecurringChangePaymentMethod.testTC6_RecurringChangePaymentMethod()'><b>testTC6_RecurringChangePaymentMethod</b><br>Test class: com.RM.scripts.TC6_RecurringChangePaymentMethod</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_RecurringChangePaymentMethod@78ac1102</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_RecurringStopPayments.testTC6_RecurringStopPayments()'><b>testTC6_RecurringStopPayments</b><br>Test class: com.RM.scripts.TC6_RecurringStopPayments</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_RecurringStopPayments@1990a65e</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_SkipPaymentMethod.testTC6_SkipPaymentMethod()'><b>testTC6_SkipPaymentMethod</b><br>Test class: com.RM.scripts.TC6_SkipPaymentMethod</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_SkipPaymentMethod@64485a47</td></tr>
+<tr>
+<td title='com.RM.scripts.TC6_VerifyReceipt.testTC6_VerifyReceipt()'><b>testTC6_VerifyReceipt</b><br>Test class: com.RM.scripts.TC6_VerifyReceipt</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC6_VerifyReceipt@13eb8acf</td></tr>
+<tr>
+<td title='com.RM.scripts.TC_5ResidentInvoice.testTC_5ResidentInvoice()'><b>testTC_5ResidentInvoice</b><br>Test class: com.RM.scripts.TC_5ResidentInvoice</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.TC_5ResidentInvoice@543c6f6d</td></tr>
+<tr>
+<td title='com.RM.scripts.UseMyAddress.testUseMyAddress()'><b>testUseMyAddress</b><br>Test class: com.RM.scripts.UseMyAddress</td>
+<td></td>
+<td>0</td>
+<td>com.RM.scripts.UseMyAddress@4e718207</td></tr>
+</table><p>
+</body>
+</html>

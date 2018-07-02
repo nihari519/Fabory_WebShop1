@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Test-method Suite" > -->
+
+<suite name="Test-method Suite" parallel="none" thread-count="1">
+<!-- <parameter name="parallel" value="NO"></parameter> -->
+	<test name="FABE">
+<classes>
+  	 	    <class name="com.FABE.scripts.TC01_RegisterAsNewCompany" /> 	
+		    <class name="com.FABE.scripts.TC02_LoginAsAdminUser" />
+		    <class name="com.FABE.scripts.TC03_VerifyProductsMenu" />
+		    <class name="com.FABE.scripts.TC04_VerifyUserCreationByAdminUser" />
+		    <class name="com.FABE.scripts.TC05_VerifyHomePage" />
+		    <class name="com.FABE.scripts.TC06_AddFastenerProductToCart" />
+		    <class name="com.FABE.scripts.TC07_SearchForProductAndAddToCart" />
+		    <class name="com.FABE.scripts.TC08_SignUpExistingCompany" />
+		    <class name="com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder" />
+		    <class name="com.FABE.scripts.TC10_VerifyCreditCardPayment" />
+		    <class name="com.FABE.scripts.TC11_VerifySepaBankTransferPayment" />
+		    <class name="com.FABE.scripts.TC12_VerifySepaBankDebitPayment" />
+		    <class name="com.FABE.scripts.TC13_CheckoutAddNewAddress" />
+		    <!-- <class name="com.FABE.scripts.TC14_CreateNewBudgetAndVerify" />
+		    <class name="com.FABE.scripts.TC15_VerifyForgotPasswordLink" /> -->
+		     
+		   	
+		<!-- 	<class name="com.RM.scripts.TC6_AddAndDeletePaymentMethod" /> -->
+		<!-- 	<class name="com.RM.scripts.TC6_DifferentPaymentAddress" /> -->
+		<!-- 	<class name="com.RM.scripts.TC6_PasswordLengthValidation" /> -->
+		<!-- 	<class name="com.RM.scripts.TC6_PasswordMustMatch" /> -->
+		<!-- 	<class name="com.RM.scripts.TC6_ConfirmPasswordValidation" /> -->
+
+
+		</classes>
+	</test>
+</suite>
+
+

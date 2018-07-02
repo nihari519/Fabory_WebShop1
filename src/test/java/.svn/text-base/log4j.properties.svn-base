@@ -1,0 +1,20 @@
+ # Log levels
+log4j.rootLogger=INFO,CONSOLE,FILE
+# Appender Configuration
+log4j.appender.CONSOLE=org.apache.log4j.ConsoleAppender
+# Pattern to output the caller's file name and line number
+log4j.appender.CONSOLE.layout=org.apache.log4j.PatternLayout
+log4j.appender.CONSOLE.layout.ConversionPattern=%5p [%t] (%F:%L) - %m%n
+# Rolling File Appender
+
+log4j.appender.FILE=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.FILE.DatePattern='_'yyyy-MM-dd'.log'
+# Path and file name to store the log file
+#--------Log file Location---------------
+log4j.appender.FILE.File=Resources/Demo.log
+#log4j.appender.FILE.MaxFileSize=255MB
+# Number of backup files
+#log4j.appender.FILE.MaxBackupIndex=2
+# Layout for Rolling File Appender
+log4j.appender.FILE.layout=org.apache.log4j.PatternLayout
+log4j.appender.FILE.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}-%t-%x-%-5p-%-10c:%m%n

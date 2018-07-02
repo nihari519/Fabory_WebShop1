@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Test-method_Suite">
+              <span class="suite-name border-failed">Test-method Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Test-method_Suite">
+                    <span>E:\Automation\Fabory_WebShop\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Test-method_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Test-method_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Test-method_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Test-method_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Test-method_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Test-method_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test-method_Suite" class="hide-methods failed suite-Test-method_Suite"> (hide)</a> <!-- hide-methods failed suite-Test-method_Suite -->
+                      <a href="#" panel-name="suite-Test-method_Suite" class="show-methods failed suite-Test-method_Suite"> (show)</a> <!-- show-methods failed suite-Test-method_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Test-method_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC10_VerifyCreditCardPayment" hash-for-method="testTC10_VerifyCreditCardPayment">testTC10_VerifyCreditCardPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC12_VerifySepaBankDebitPayment" hash-for-method="testTC12_VerifySepaBankDebitPayment">testTC12_VerifySepaBankDebitPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test-method_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test-method_Suite" class="hide-methods passed suite-Test-method_Suite"> (hide)</a> <!-- hide-methods passed suite-Test-method_Suite -->
+                      <a href="#" panel-name="suite-Test-method_Suite" class="show-methods passed suite-Test-method_Suite"> (show)</a> <!-- show-methods passed suite-Test-method_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test-method_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC01_RegisterAsNewCompany" hash-for-method="testTC01_RegisterAsNewCompany">testTC01_RegisterAsNewCompany</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC02_LoginAsAdminUser" hash-for-method="testTC02_LoginAsAdminUser">testTC02_LoginAsAdminUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC03_VerifyProductsMenu" hash-for-method="testTC03_VerifyProductsMenu">testTC03_VerifyProductsMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC04_VerifyUserCreationByAdminUser" hash-for-method="testTC04_VerifyUserCreationByAdminUser">testTC04_VerifyUserCreationByAdminUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC05_VerifyHomePage" hash-for-method="testTC05_VerifyHomePage">testTC05_VerifyHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC06_AddFastenerProductToCart" hash-for-method="testTC06_AddFastenerProductToCart">testTC06_AddFastenerProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC07_SearchForProductAndAddToCart" hash-for-method="testTC07_SearchForProductAndAddToCart">testTC07_SearchForProductAndAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC08_SignUpExistingCompany" hash-for-method="testTC08_SignUpExistingCompany">testTC08_SignUpExistingCompany</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder" hash-for-method="testTC09_VerifyCheckoutAndSubmitOrder">testTC09_VerifyCheckoutAndSubmitOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC11_VerifySepaBankTransferPayment" hash-for-method="testTC11_VerifySepaBankTransferPayment">testTC11_VerifySepaBankTransferPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Test-method_Suite" title="com.FABE.scripts.TC13_CheckoutAddNewAddress" hash-for-method="testTC13_CheckoutAddNewAddress">testTC13_CheckoutAddNewAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test-method_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test-method_Suite" class="panel Test-method_Suite">
+          <div class="suite-Test-method_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.FABE.scripts.TC10_VerifyCreditCardPayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC10_VerifyCreditCardPayment">
+                  </a> <!-- testTC10_VerifyCreditCardPayment -->
+                  <span class="method-name">testTC10_VerifyCreditCardPayment</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: E:\Automation\Fabory_WebShop\Drivers\chromedriver_2.38.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:33)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:139)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.FABE.accelerators.TestEngine.openBrowser(TestEngine.java:999)
+	at com.FABE.accelerators.ActionEngine.catchBlock(ActionEngine.java:2262)
+	at com.FABE.scripts.TC10_VerifyCreditCardPayment.testTC10_VerifyCreditCardPayment(TC10_VerifyCreditCardPayment.java:168)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-failed -->
+          <div class="suite-Test-method_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.FABE.scripts.TC12_VerifySepaBankDebitPayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC12_VerifySepaBankDebitPayment">
+                  </a> <!-- testTC12_VerifySepaBankDebitPayment -->
+                  <span class="method-name">testTC12_VerifySepaBankDebitPayment</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: E:\Automation\Fabory_WebShop\Drivers\chromedriver_2.38.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:33)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:139)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:89)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.FABE.accelerators.TestEngine.openBrowser(TestEngine.java:999)
+	at com.FABE.accelerators.ActionEngine.catchBlock(ActionEngine.java:2262)
+	at com.FABE.scripts.TC12_VerifySepaBankDebitPayment.testTC12_VerifySepaBankDebitPayment(TC12_VerifySepaBankDebitPayment.java:166)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-failed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC07_SearchForProductAndAddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC07_SearchForProductAndAddToCart">
+                  </a> <!-- testTC07_SearchForProductAndAddToCart -->
+                  <span class="method-name">testTC07_SearchForProductAndAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC09_VerifyCheckoutAndSubmitOrder">
+                  </a> <!-- testTC09_VerifyCheckoutAndSubmitOrder -->
+                  <span class="method-name">testTC09_VerifyCheckoutAndSubmitOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC11_VerifySepaBankTransferPayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC11_VerifySepaBankTransferPayment">
+                  </a> <!-- testTC11_VerifySepaBankTransferPayment -->
+                  <span class="method-name">testTC11_VerifySepaBankTransferPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC13_CheckoutAddNewAddress</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC13_CheckoutAddNewAddress">
+                  </a> <!-- testTC13_CheckoutAddNewAddress -->
+                  <span class="method-name">testTC13_CheckoutAddNewAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC03_VerifyProductsMenu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC03_VerifyProductsMenu">
+                  </a> <!-- testTC03_VerifyProductsMenu -->
+                  <span class="method-name">testTC03_VerifyProductsMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC02_LoginAsAdminUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC02_LoginAsAdminUser">
+                  </a> <!-- testTC02_LoginAsAdminUser -->
+                  <span class="method-name">testTC02_LoginAsAdminUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC08_SignUpExistingCompany</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC08_SignUpExistingCompany">
+                  </a> <!-- testTC08_SignUpExistingCompany -->
+                  <span class="method-name">testTC08_SignUpExistingCompany</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC05_VerifyHomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC05_VerifyHomePage">
+                  </a> <!-- testTC05_VerifyHomePage -->
+                  <span class="method-name">testTC05_VerifyHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC04_VerifyUserCreationByAdminUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC04_VerifyUserCreationByAdminUser">
+                  </a> <!-- testTC04_VerifyUserCreationByAdminUser -->
+                  <span class="method-name">testTC04_VerifyUserCreationByAdminUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC06_AddFastenerProductToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC06_AddFastenerProductToCart">
+                  </a> <!-- testTC06_AddFastenerProductToCart -->
+                  <span class="method-name">testTC06_AddFastenerProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+          <div class="suite-Test-method_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.FABE.scripts.TC01_RegisterAsNewCompany</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTC01_RegisterAsNewCompany">
+                  </a> <!-- testTC01_RegisterAsNewCompany -->
+                  <span class="method-name">testTC01_RegisterAsNewCompany</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test-method_Suite-class-passed -->
+        </div> <!-- panel Test-method_Suite -->
+        <div panel-name="test-xml-Test-method_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Automation\Fabory_WebShop\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Test-method Suite&quot;&gt;
+  &lt;test name=&quot;FABE&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC01_RegisterAsNewCompany&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC02_LoginAsAdminUser&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC03_VerifyProductsMenu&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC04_VerifyUserCreationByAdminUser&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC05_VerifyHomePage&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC06_AddFastenerProductToCart&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC07_SearchForProductAndAddToCart&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC08_SignUpExistingCompany&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC10_VerifyCreditCardPayment&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC11_VerifySepaBankTransferPayment&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC12_VerifySepaBankDebitPayment&quot;/&gt;
+      &lt;class name=&quot;com.FABE.scripts.TC13_CheckoutAddNewAddress&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FABE --&gt;
+&lt;/suite&gt; &lt;!-- Test-method Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test-method_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test-method Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FABE (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test-method_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test-method Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test-method_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test-method Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test-method_Suite');
+function tableData_Test-method_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testTC11_VerifySepaBankTransferPayment')
+data.setCell(0, 2, 'com.FABE.scripts.TC11_VerifySepaBankTransferPayment')
+data.setCell(0, 3, 131031);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testTC04_VerifyUserCreationByAdminUser')
+data.setCell(1, 2, 'com.FABE.scripts.TC04_VerifyUserCreationByAdminUser')
+data.setCell(1, 3, 124393);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testTC12_VerifySepaBankDebitPayment')
+data.setCell(2, 2, 'com.FABE.scripts.TC12_VerifySepaBankDebitPayment')
+data.setCell(2, 3, 113040);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testTC01_RegisterAsNewCompany')
+data.setCell(3, 2, 'com.FABE.scripts.TC01_RegisterAsNewCompany')
+data.setCell(3, 3, 110034);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testTC10_VerifyCreditCardPayment')
+data.setCell(4, 2, 'com.FABE.scripts.TC10_VerifyCreditCardPayment')
+data.setCell(4, 3, 105977);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testTC09_VerifyCheckoutAndSubmitOrder')
+data.setCell(5, 2, 'com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder')
+data.setCell(5, 3, 103663);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testTC08_SignUpExistingCompany')
+data.setCell(6, 2, 'com.FABE.scripts.TC08_SignUpExistingCompany')
+data.setCell(6, 3, 91727);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testTC06_AddFastenerProductToCart')
+data.setCell(7, 2, 'com.FABE.scripts.TC06_AddFastenerProductToCart')
+data.setCell(7, 3, 75828);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testTC07_SearchForProductAndAddToCart')
+data.setCell(8, 2, 'com.FABE.scripts.TC07_SearchForProductAndAddToCart')
+data.setCell(8, 3, 67352);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTC13_CheckoutAddNewAddress')
+data.setCell(9, 2, 'com.FABE.scripts.TC13_CheckoutAddNewAddress')
+data.setCell(9, 3, 64962);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testTC05_VerifyHomePage')
+data.setCell(10, 2, 'com.FABE.scripts.TC05_VerifyHomePage')
+data.setCell(10, 3, 57092);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testTC02_LoginAsAdminUser')
+data.setCell(11, 2, 'com.FABE.scripts.TC02_LoginAsAdminUser')
+data.setCell(11, 3, 53086);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testTC03_VerifyProductsMenu')
+data.setCell(12, 2, 'com.FABE.scripts.TC03_VerifyProductsMenu')
+data.setCell(12, 3, 52162);
+window.suiteTableData['Test-method_Suite']= { tableData: data, tableDiv: 'times-div-Test-method_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 minutes</span>
+              <div id="times-div-Test-method_Suite">
+              </div> <!-- times-div-Test-method_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test-method_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test-method Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test-method_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">48 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC03_VerifyProductsMenu</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC13_CheckoutAddNewAddress</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC05_VerifyHomePage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC04_VerifyUserCreationByAdminUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC07_SearchForProductAndAddToCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC11_VerifySepaBankTransferPayment</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC02_LoginAsAdminUser</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC10_VerifyCreditCardPayment</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC08_SignUpExistingCompany</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC12_VerifySepaBankDebitPayment</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.FABE.scripts.TC06_AddFastenerProductToCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">suiteFirst</span>
+                <br/>
+                <span class="ignored-method-name">first1</span>
+                <br/>
+                <span class="ignored-method-name">tearDownFirefox</span>
+                <br/>
+                <span class="ignored-method-name">first</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test-method_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC01_RegisterAsNewCompany</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteFirst(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">first(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">172 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC01_RegisterAsNewCompany.testTC01_RegisterAsNewCompany() throws java.l...)</span>
+                <span class="method-start">592 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC01_RegisterAsNewCompany</span>
+                <span class="method-start">5061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">115095 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">115913 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC02_LoginAsAdminUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">115913 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">115913 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC02_LoginAsAdminUser.testTC02_LoginAsAdminUser() throws java.lang.Thro...)</span>
+                <span class="method-start">115993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC02_LoginAsAdminUser</span>
+                <span class="method-start">119361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">173074 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC03_VerifyProductsMenu</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">173074 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">173074 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC03_VerifyProductsMenu.testTC03_VerifyProductsMenu() throws java.lang....)</span>
+                <span class="method-start">173114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC03_VerifyProductsMenu</span>
+                <span class="method-start">176398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">228562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">229186 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC04_VerifyUserCreationByAdminUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">229186 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">229186 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC04_VerifyUserCreationByAdminUser.testTC04_VerifyUserCreationByAdminUs...)</span>
+                <span class="method-start">229216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC04_VerifyUserCreationByAdminUser</span>
+                <span class="method-start">232575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">356968 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">357609 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC05_VerifyHomePage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">357609 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">357609 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC05_VerifyHomePage.testTC05_VerifyHomePage() throws java.lang.Throwabl...)</span>
+                <span class="method-start">357629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC05_VerifyHomePage</span>
+                <span class="method-start">360901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">417995 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">418645 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC06_AddFastenerProductToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">418645 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">418645 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC06_AddFastenerProductToCart.testTC06_AddFastenerProductToCart() throw...)</span>
+                <span class="method-start">418675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC06_AddFastenerProductToCart</span>
+                <span class="method-start">422091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">497922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">498592 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC07_SearchForProductAndAddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">498592 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">498592 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC07_SearchForProductAndAddToCart.testTC07_SearchForProductAndAddToCart...)</span>
+                <span class="method-start">498602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC07_SearchForProductAndAddToCart</span>
+                <span class="method-start">502218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">569573 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">570249 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC08_SignUpExistingCompany</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">570249 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">570249 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC08_SignUpExistingCompany.testTC08_SignUpExistingCompany() throws java...)</span>
+                <span class="method-start">570289 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC08_SignUpExistingCompany</span>
+                <span class="method-start">573602 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">665329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">665960 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">665960 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">665960 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC09_VerifyCheckoutAndSubmitOrder.testTC09_VerifyCheckoutAndSubmitOrder...)</span>
+                <span class="method-start">665970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC09_VerifyCheckoutAndSubmitOrder</span>
+                <span class="method-start">669245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">772914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">773537 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC10_VerifyCreditCardPayment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">773537 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">773537 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC10_VerifyCreditCardPayment.testTC10_VerifyCreditCardPayment() throws ...)</span>
+                <span class="method-start">773547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTC10_VerifyCreditCardPayment</span>
+                <span class="method-start">777348 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">883325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">883345 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC11_VerifySepaBankTransferPayment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">883345 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">883345 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC11_VerifySepaBankTransferPayment.testTC11_VerifySepaBankTransferPayme...)</span>
+                <span class="method-start">883366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC11_VerifySepaBankTransferPayment</span>
+                <span class="method-start">886655 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1017687 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">1018301 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC12_VerifySepaBankDebitPayment</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">1018301 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">1018301 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC12_VerifySepaBankDebitPayment.testTC12_VerifySepaBankDebitPayment() t...)</span>
+                <span class="method-start">1018311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTC12_VerifySepaBankDebitPayment</span>
+                <span class="method-start">1021585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1134625 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">1134645 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC13_CheckoutAddNewAddress</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">excelLoad</span>
+                <span class="method-start">1134645 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">firstBeforeClass(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">1134645 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">reportHeader(public void com.FABE.scripts.TC13_CheckoutAddNewAddress.testTC13_CheckoutAddNewAddress() throws java...)</span>
+                <span class="method-start">1134666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTC13_CheckoutAddNewAddress</span>
+                <span class="method-start">1137985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1202948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close</span>
+                <span class="method-start">1203579 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FABE.scripts.TC01_RegisterAsNewCompany</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">first1(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">1203579 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDownFirefox(org.testng.TestRunner@4d8fcf34)</span>
+                <span class="method-start">1203599 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

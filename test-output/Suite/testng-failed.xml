@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.nv.scripts.HomePageValidation">
+        <methods>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="firstBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="close"/>
+          <include name="suiteFirst"/>
+          <include name="excelLoad"/>
+          <include name="nv_SignUpValidation"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.nv.scripts.HomePageValidation -->
+      <class name="com.nv.scripts.SWG_TC_02">
+        <methods>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="swg_CreateServiceEvent"/>
+          <include name="firstBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="close"/>
+          <include name="suiteFirst"/>
+          <include name="excelLoad"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.nv.scripts.SWG_TC_02 -->
+      <class name="com.nv.scripts.SWG_TC_01">
+        <methods>
+          <include name="tearDownFirefox"/>
+          <include name="swg_CreateServiceEvent"/>
+          <include name="first1"/>
+          <include name="firstBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="close"/>
+          <include name="excelLoad"/>
+          <include name="suiteFirst"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.nv.scripts.SWG_TC_01 -->
+      <class name="com.nv.scripts.ValidateCheckOut">
+        <methods>
+          <include name="tearDownFirefox"/>
+          <include name="first1"/>
+          <include name="firstBeforeClass"/>
+          <include name="tearDown"/>
+          <include name="first"/>
+          <include name="close"/>
+          <include name="checkOutValidation"/>
+          <include name="suiteFirst"/>
+          <include name="reportHeader"/>
+          <include name="excelLoad"/>
+        </methods>
+      </class> <!-- com.nv.scripts.ValidateCheckOut -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,7 @@
+package com.edtc.support;
+
+public enum ServiceType {
+	    HIGH,
+	    MEDIUM,
+	    LOW
+}

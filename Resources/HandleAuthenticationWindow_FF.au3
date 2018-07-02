@@ -1,0 +1,8 @@
+WinWaitActive("Authentication Required","")
+Send("fabory")
+Send("{TAB}")
+Send("f4b0ry#uat2018!")
+ControlClick("Authentication Required","OK","")
+Send("{Alt}+{F4}")
+WinWait("Authentication Required")
+ControlClick("Authentication Required","OK","")

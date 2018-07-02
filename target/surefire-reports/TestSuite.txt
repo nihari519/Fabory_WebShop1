@@ -1,0 +1,202 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 788.101 sec <<< FAILURE! - in TestSuite
+testTC2_Recurring(com.RM.scripts.TC2_Recurring)  Time elapsed: 55.177 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.TC2_Recurring.testTC2_Recurring(TC2_Recurring.java:104)
+
+testTC6_ExpiryCardError(com.RM.scripts.TC6_ExpiryCardError)  Time elapsed: 24.604 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.TC6_ExpiryCardError.testTC6_ExpiryCardError(TC6_ExpiryCardError.java:92)
+
+testTC6_AddAndDeletePaymentMethod(com.RM.scripts.TC6_AddAndDeletePaymentMethod)  Time elapsed: 26.197 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.TC6_AddAndDeletePaymentMethod.testTC6_AddAndDeletePaymentMethod(TC6_AddAndDeletePaymentMethod.java:124)
+
+testTC6_DifferentPaymentAddress(com.RM.scripts.TC6_DifferentPaymentAddress)  Time elapsed: 24.372 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.TC6_DifferentPaymentAddress.testTC6_DifferentPaymentAddress(TC6_DifferentPaymentAddress.java:93)
+
+testTC6_PrimaryPayment(com.RM.scripts.TC6_PrimaryPayment)  Time elapsed: 24.179 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.TC6_PrimaryPayment.testTC6_PrimaryPayment(TC6_PrimaryPayment.java:64)
+
+testMoolaperks(com.RM.scripts.Moolaperks)  Time elapsed: 24.719 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.Moolaperks.testMoolaperks(Moolaperks.java:67)
+
+testTC6_OneTimeChangePassword(com.RM.scripts.TC6_OneTimeChangePassword)  Time elapsed: 24.18 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.TC6_OneTimeChangePassword.testTC6_OneTimeChangePassword(TC6_OneTimeChangePassword.java:77)
+
+testQuickPay_TC4(com.RM.scripts.QuickPay_TC4)  Time elapsed: 31.485 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.QuickPay_TC4.testQuickPay_TC4(QuickPay_TC4.java:81)
+
+testQuickPay_TC3_1(com.RM.scripts.QuickPay_TC3_1)  Time elapsed: 24.909 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.QuickPay_TC3_1.testQuickPay_TC3_1(QuickPay_TC3_1.java:61)
+
+testQuickPay_TC3_3(com.RM.scripts.QuickPay_TC3_3)  Time elapsed: 63.558 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.QuickPay_TC3_3.testQuickPay_TC3_3(QuickPay_TC3_3.java:139)
+
+testQuickPay_TC5(com.RM.scripts.QuickPay_TC5)  Time elapsed: 44.457 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.QuickPay_TC5.testQuickPay_TC5(QuickPay_TC5.java:174)
+
+testQuickPay_TC3_4(com.RM.scripts.QuickPay_TC3_4)  Time elapsed: 29.638 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\Venkatesware\swgworkspace\eDTC-Automation\Drivers\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.RM.accelerators.TestEngine.openBrowser(TestEngine.java:778)
+	at com.RM.accelerators.ActionEngine.catchBlock(ActionEngine.java:2436)
+	at com.RM.scripts.QuickPay_TC3_4.testQuickPay_TC3_4(QuickPay_TC3_4.java:157)
+
+tearDownFirefox(com.RM.scripts.TC2_Recurring)  Time elapsed: 30.137 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0
+	at java.util.Collections$EmptyList.get(Collections.java:4454)
+	at java.util.Collections$UnmodifiableList.get(Collections.java:1309)
+	at com.RM.accelerators.TestEngine.setElements(TestEngine.java:734)
+	at com.RM.accelerators.TestEngine.WriteExcelfile(TestEngine.java:667)
+	at com.RM.accelerators.TestEngine.tearDownFirefox(TestEngine.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:350)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
